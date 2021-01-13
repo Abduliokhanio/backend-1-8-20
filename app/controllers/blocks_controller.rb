@@ -3,7 +3,7 @@ class BlocksController < ApplicationController
 
   # GET /blocks
   def index
-    @blocks = Block.all
+    @blocks = Block.all.reverse
 
     render json: @blocks
   end
