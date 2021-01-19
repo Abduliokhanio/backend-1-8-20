@@ -1,6 +1,6 @@
-class CreateBlocks < ActiveRecord::Migration[6.0]
+class CreateBlogs < ActiveRecord::Migration[6.0]
   def change
-    create_table :blocks do |t|
+    create_table :blogs do |t|
       t.string :title
       t.string :description
 
