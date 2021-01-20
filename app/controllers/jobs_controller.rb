@@ -3,7 +3,7 @@ class JobsController < ApplicationController
 
   # GET /jobs
   def index
-    @jobs = Job.all
+    @jobs = Job.all.reverse
 
     render json: @jobs
   end
