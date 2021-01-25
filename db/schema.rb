@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2021_01_19_183626) do
   create_table "jobs", force: :cascade do |t|
     t.string "title"
     t.string "description"
+    t.boolean "like"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

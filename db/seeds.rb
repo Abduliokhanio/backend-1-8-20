@@ -13,7 +13,7 @@ Blog.create(title: "Git Pocket Guide" , description: "Take advantage of JavaScri
 Blog.create(title: "Designing Evolvable Web APIs with ASP.NET" , description: "ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that ECMAScript 6 brings to JavaScript.")
 
 
-Job.create(title: "Sales" , description: "sales related activity")
-Job.create(title: "Accounting" , description: "Accounting related activity")
-Job.create(title: "Redeption" , description: "Take calls and stuff")
-Job.create(title: "Warehouse" , description: "Move boxes")
+Job.create(title: "Sales" , description: "sales related activity", like: true)
+Job.create(title: "Accounting" , description: "Accounting related activity", like: false)
+Job.create(title: "Redeption" , description: "Take calls and stuff", like: false)
+Job.create(title: "Warehouse" , description: "Move boxes", like: false)
